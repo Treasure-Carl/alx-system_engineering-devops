@@ -1,2 +1,3 @@
 #!/usr/bin/env ruby
-puts ARGV[0].scan(/Holberton/).join unless ARGV[0].nil?
+# A regular expression that is simply matching School
+puts ARGV[0].scan(/School/).join
